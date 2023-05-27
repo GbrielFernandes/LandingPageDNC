@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menuSuperior{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#texto-menuSuperior{
+    margin-top: 35px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+
+#menuSuperior{
+    background-image: url('fundo-menuSuperior.svg');
+    background-size: cover;
+    color: aliceblue;
+}
+
+#menuInformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding:25px ;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoInformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px ;
+    border-radius: 8px;
+}
+
+#carrossel{
+    background-color:#247BA0 ;
+    margin: auto;
+    padding: 50px;
+}
+
+#tituloCarrossel{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+}
+.card{
+    margin: auto;
+}
+
+#setaEsquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 57%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloFormulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    margin: 15px;
+    height: 40px;
+    background-color: #EAECE5;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 3px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 30px;
+    border-style: none;
+    color: #EAECE5;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#3194be ;
+    color: white;
+    transform: translateY(-7px);
+    transition: 0.8s;
+    box-shadow: 0px 15px 20px #14122e73;
+}
